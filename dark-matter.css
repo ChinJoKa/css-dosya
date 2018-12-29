@@ -1,0 +1,399 @@
+@import url("https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Fixed-Themes-Misc/Dark-Matter-Remastered/fork.css");
+@import url("https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/status.css");
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+/*
+					 _                _                                   _ 
+  __ _ _ __  _ __   | |__   __ _  ___| | ____ _ _ __ ___  _   _ _ __   __| |
+ / _` | '_ \| '_ \  | '_ \ / _` |/ __| |/ / _` | '__/ _ \| | | | '_ \ / _` |
+| (_| | |_) | |_) | | |_) | (_| | (__|   < (_| | | | (_) | |_| | | | | (_| |
+ \__,_| .__/| .__/  |_.__/ \__,_|\___|_|\_\__, |_|  \___/ \__,_|_| |_|\__,_|
+	  |_|   |_|                           |___/                             
+*/
+
+/* Main background and settings background */
+.app,
+.callout-backdrop {
+	background: var(--background-image) !important;
+	background-size: cover !important;
+}
+
+/*
+						   _                           _       
+  ___ ___  _ __ ___    ___| | ___ _ __ ___   ___ _ __ | |_ ___ 
+ / __/ _ \| '__/ _ \  / _ \ |/ _ \ '_ ` _ \ / _ \ '_ \| __/ __|
+| (_| (_) | | |  __/ |  __/ |  __/ | | | | |  __/ | | | |_\__ \
+ \___\___/|_|  \___|  \___|_|\___|_| |_| |_|\___|_| |_|\__|___/
+
+*/
+
+#app-mount {
+	font-family: 'Karla',Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif !important;
+}
+
+textarea {
+	background: transparent !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+	border: 3px solid rgba(255,255,255,0) !important;
+	background-color: var(--accent-color) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	border: 3px solid rgba(255,255,255,0) !important;
+	background-color: rgba(0,0,0,0.3) !important;
+}
+
+/* The dark background for the channel list scrollbar looks ugly since it breaks the even line
+   between channels and content. The scrollbar is visible enough without a background so we
+   just remove it there. */
+.channels-Ie2l6A .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+}
+
+
+/*
+ _     _     _      
+| |__ (_) __| | ___ 
+| '_ \| |/ _` |/ _ \
+| | | | | (_| |  __/
+|_| |_|_|\__,_|\___|
+
+*/
+
+.links,
+.help-container {
+	display: none;
+}
+
+.layers,
+.container-PNkimc,
+.container-2lgZY8,
+.theme-dark .layers-3iHuyZ,
+.theme-dark .chat-3bRxxu form {
+	background: transparent !important;
+}
+
+/*
+				 _         _                _                                   _     
+ _ __ ___   __ _(_)_ __   | |__   __ _  ___| | ____ _ _ __ ___  _   _ _ __   __| |___ 
+| '_ ` _ \ / _` | | '_ \  | '_ \ / _` |/ __| |/ / _` | '__/ _ \| | | | '_ \ / _` / __|
+| | | | | | (_| | | | | | | |_) | (_| | (__|   < (_| | | | (_) | |_| | | | | (_| \__ \
+|_| |_| |_|\__,_|_|_| |_| |_.__/ \__,_|\___|_|\_\__, |_|  \___/ \__,_|_| |_|\__,_|___/
+												|___/                                 
+*/
+
+.links,
+.chat-3bRxxu,
+.typing-2GQL18,
+.content-yTz4x3,
+.channels-Ie2l6A,
+.private-channels,
+.header-2o-2hj header,
+.dividerRed-MKoLlr span,
+.messagesWrapper-3lZDfY,
+#rtc-connection,
+#voice-connection {
+	background: transparent !important;
+}
+
+/* Server list area */
+.guildsWrapper-5TJh6A { background:rgba(0,0,0,0.6) !important }
+
+/* Channels list area */
+.channels-Ie2l6A { background:rgba(0,0,0,0.7) !important }
+
+/* Chat area */
+.content-yTz4x3 .flex-spacer { background:rgba(0,0,0,0.8) }
+
+/* User list area */
+.members-1998pB { background:rgba(0,0,0,0.9) !important }
+
+/* Game area */
+.activityFeed-28jde9 { background:rgba(0,0,0,0.8) !important }
+
+/* Store */
+/*
+/*
+								_ _     _                   _   _             
+ ___  ___ _ ____   _____ _ __  | (_)___| |_   ___  ___  ___| |_(_) ___  _ __  
+/ __|/ _ \ '__\ \ / / _ \ '__| | | / __| __| / __|/ _ \/ __| __| |/ _ \| '_ \ 
+\__ \  __/ |   \ V /  __/ |    | | \__ \ |_  \__ \  __/ (__| |_| | (_) | | | |
+|___/\___|_|    \_/ \___|_|    |_|_|___/\__| |___/\___|\___|\__|_|\___/|_| |_|
+
+*/ 
+
+.typeMacOS-3EmCyP {
+	background: rgba(0,0,0,0.6);
+	width: 71px;
+	box-shadow: inset -10px 0px 20px -10px rgba(0,0,0,0.3);
+}
+
+.name-3M0b8v {
+	font-size: 14px;
+}
+
+.icon-sxakjD {
+	width: 14px;
+	height: 14px;
+}
+
+.unread-1Dp-OI {
+	background-color: var(--main-color) !important;
+}
+
+.container-2Thooq {
+	height: 75px;
+	background: rgba(0,0,0,0.8);
+	padding: 0 10px 0 15px;
+}
+
+.contentSelectedText-3wUhMi,
+.contentHoveredText-2D9B-x {
+	background: rgba(0,0,0,0.8) !important;
+}
+
+.contentHoveredVoice-3p_NEO,
+.contentSelectedVoice-1WDIBM {
+	background: rgba(0,0,0,0.5) !important;
+}
+
+.create-guild-container {
+	background: none !important;
+}
+
+.create-guild-container .action {
+	background: rgba(0,0,0,0.7);
+}
+
+.create-guild-container .create-or-join .actions .or {
+	-webkit-filter: opacity(0.9) invert();
+	color: #000;
+}
+
+.create-guild-container .action.create .action-icon,
+.create-guild-container .action.join .action-icon {
+	-webkit-filter:invert() hue-rotate(150deg);
+}
+
+.create-guild-container.deprecated .action {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.create-guild-container h5,
+.create-guild-container .action.create .action-header {
+	color:var(--main-color);
+}
+
+.create-guild-container .action.create .btn-primary {
+	background-color:var(--main-color) !important;
+}
+
+.create-guild-container .action.create:hover .btn-primary {
+	background-color:var(--accent-color) !important;
+}
+
+.create-guild-container .form-actions .btn-default {
+	background: rgba(255,255,255,0.1);
+	border: 0;
+}
+
+.create-guild-container .create-guild .guild-1EfMGQ-form .region-select {
+	background: rgba(255,255,255,0.1);
+}
+
+.create-guild-container .create-guild .guild-1EfMGQ-form .region-select button {
+	color:#000;
+}
+
+.create-guild-container .create-guild .guild-1EfMGQ-form .region-select:hover button {
+	background-color:var(--main-color);
+	border-color:var(--main-color);
+	color:#fff;
+}
+
+.create-guild-container .create-guild .guild-1EfMGQ-form .region-select:hover .region-select-inner {
+	border-color:var(--main-color);
+}
+
+.create-guild-container .create-guild .guild-1EfMGQ-form .region-select-name {
+	color:#fff;
+}
+
+.avatar-uploader .avatar-uploader-inner {
+	background-color: var(--main-color);
+}
+
+.region-select-modal {
+	background:rgba(0,0,0,0.8);
+}
+
+.region-select-modal .region-select-modal-header {
+	color:var(--main-color);
+}
+
+.region-select-modal .region-select-modal-option {
+	background:rgba(255,255,255,0.1);
+	border:2px solid rgba(255,255,255,0.1);
+}
+
+.region-select-modal .region-select-modal-option:hover {
+	border-color: var(--main-color);
+}
+
+.region-select-modal .region-select-modal-option .region-select-name {
+	color:#fff;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-of-type {
+	/*transform: scale(0.85);*/
+	margin-top: 1px;
+	margin-left: -5px;
+	border: 5px solid rgba(0,0,0,0);
+	border-radius: 100% !important;
+	transition: 200ms all ease-in-out;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-of-type:hover {
+	border-radius: 100% !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.active {
+	border-radius: 100% !important;
+}
+
+.header-2o-2hj-open ul {
+	opacity:1 !important;
+}
+
+.guildsAdd-21_IdK {
+	font-size:22px !important;
+	margin-left: 0 !important;
+	margin-top: 10px !important;
+}
+
+.platform-osx .guildsWrapper-5TJh6A {
+	padding-top: 15px;
+}
+
+.guildsWrapper-5TJh6A {
+	border-right:1px solid rgba(0,0,0,0.2);
+	box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.3);
+}
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ-separator {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:-5px;
+	display:none;
+}
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ-separator:after {
+	background:transparent;
+}
+
+.header-2o-2hj header span {
+	margin-left:-7px;
+}
+
+.header-2o-2hj header {
+	box-shadow:none !important;
+	color:#ddd;
+}
+
+.channels-Ie2l6A header h2 {
+	padding:0 18px;
+}
+
+.channels-Ie2l6A .nameSelectedText-sp_EUw {
+	color: #fff;
+}
+
+.channels-Ie2l6A .content-20Aix8 {
+	border-radius: 2px;
+}
+
+.channels-Ie2l6A .horizontal-2EEEnY,
+.channels-Ie2l6A .content-20Aix8 div,
+.channels-Ie2l6A .name-3M0b8v {
+	font-size:0.9em;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+	padding: 18px 20px 85px 15px;
+}
+
+.guildsAdd-21_IdK {
+	font-size: 30px;
+	background: #000;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+	margin-top: 10px !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
+	background: #151515 !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.active:first-of-type .guildInner-3DSoA4 {
+	background: var(--main-color) !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .avatar-small {
+	width:40px;
+	height:40px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .avatar-small {
+	width:40px;
+	height:40px;
+	background-size: 40px 40px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
+	line-height:40px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-icon {
+	width:40px;
+	height:40px;
+	background-size:25px 19px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-icon {
+	background-color: rgba(0,0,0,0.3) !important;
+	background-image: none !important;
+	padding-top:0px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ {
+	display:block;
+	width:40px;
+	height:40px;
+	content:'';
+	background-image: url(https://i.hizliresim.com/YQr4dE.gif) !important;
+	background-size:110%;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ g {
+    display: none;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.audio .guildInner-3DSoA4:after {
+	background-size:12px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:before,
+.guildsWrapper-5TJh6A .guilds-1q_…
